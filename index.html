@@ -7,7 +7,7 @@
     <meta name="author" content="UU">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--修改icon-->
-    <link href="/css/style.css" rel="stylesheet" type="text/css"><!--導入CSS樣式文件-->
+    <link href="/css/index_style.css" rel="stylesheet" type="text/css"><!--導入CSS樣式文件-->
     <script type="text/javascript" src="js/scripts.js"></script><!--導入JS文件-->
     <title>2024 交換禮物大作戰!!!!</title>
 </head>
@@ -19,11 +19,11 @@
     </header>
     <main>
         <div class="login">
-            <form id="loginForm" action="">
-                <p>帳號：<input type="text" id="username" placeholder="帳號" required></p>
-                <p>密碼：<input type="password" id="password" placeholder="密碼" required></p>
+            <form id="loginForm" action="home.html">
+                <p>帳號：<input type="text" id="username" placeholder="帳號"></p>
+                <p>密碼：<input type="password" id="password" placeholder="密碼"></p>
                 <button type="submit">登入</button>
-                <button type="submit">註冊</button>
+                <button type="button" onclick="signJump()">註冊</button>
             </form>
         </div>
     </main>
