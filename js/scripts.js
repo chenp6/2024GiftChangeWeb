@@ -17,3 +17,5 @@ function save(){
 function build(){
     window.alert("註冊成功！")
 }
+
+console.log("hi node js!!");
