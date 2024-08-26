@@ -2,20 +2,18 @@ function signJump(){
     window.location.href="/signUp.html";
 }
 
-function login(){
+async function login(){
     window.location.href="/home.html";
 }
 
 function go(){
-    window.alert("尚未到抽獎時間！")
+    window.alert("尚未到抽獎時間！");
 }
 
 function save(){
-    window.alert("保存成功！")
+    window.alert("保存成功！");
 }
 
 function build(){
-    window.alert("註冊成功！")
+    window.alert("註冊成功！");
 }
-
-console.log("hi node js!!");
