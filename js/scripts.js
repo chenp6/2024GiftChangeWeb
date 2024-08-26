@@ -3,6 +3,7 @@ function signJump(){
 }
 
 async function login(){
+    const { MongoClient } = require("mongodb");
     window.location.href="/home.html";
 }
 
