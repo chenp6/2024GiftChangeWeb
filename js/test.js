@@ -13,7 +13,7 @@ async function run() {
     const database = client.db('ChirstmasGiftList');
     const list = database.collection('PeopleList');
 
-    const search = '123';
+    const search = 'lanangel';
     const query = { user: search };
     const person = await list.findOne(query);
 
