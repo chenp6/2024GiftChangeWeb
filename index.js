@@ -6,10 +6,10 @@ const port = process.env.PORT || 3000
 
 require('dotenv').config()
 
-server.use('/',express.static('.')); //將整個server資料夾放到server上的/路徑
 server.use('/image', express.static(__dirname + '/image')); //只將某資料夾放到server上
 server.use('/css', express.static(__dirname + '/css'));
 server.use('/js', express.static(__dirname + '/js'));
+server.use('/favicon.ico', express.static(__dirname + '/favicon.ico'));
 
 // 建立 get method 顯示 index.html 內容
 server.get('/', (req, res) => {
