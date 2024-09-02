@@ -3,7 +3,7 @@ function signJump(){
 }
 
 async function login(){
-    const url = 'http://localhost:3000' + '/getUserSelect';
+    const url = 'https://2024-gift-change-web.vercel.app' + '/getUserSelect';
     const res = await fetch(url, {
         method: 'GET',
     })
