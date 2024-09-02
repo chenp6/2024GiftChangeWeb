@@ -23,7 +23,11 @@
             "dest": "/image/$1.png"
         },
         {
-            "src": "/(.*)",
+            "src": "/favicon.ico",
+            "dest": "/favicon.ico"
+        },
+        {
+            "src": "/(.+)",
             "dest": "/"
         }
     ]
