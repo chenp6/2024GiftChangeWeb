@@ -12,34 +12,6 @@
     ],
     "routes": [
         {
-            "src": "/home.html",
-            "dest": "home.html"
-        },
-        {
-            "src": "/index.html",
-            "dest": "index.html"
-        },
-        {
-            "src": "/signUp.html",
-            "dest": "signUp.html"
-        },
-        {
-            "src": "/css/home_style.css",
-            "dest": "css/home_style.css"
-        },
-        {
-            "src": "/css/index_style.css",
-            "dest": "css/index_style.css"
-        },
-        {
-            "src": "/css/signUp_style.css",
-            "dest": "css/signUp_style.css"
-        },
-        {
-            "src": "/image/background.png",
-            "dest": "image/background.png"
-        },
-        {
             "src": "/(.+)",
             "dest": "/"
         }
