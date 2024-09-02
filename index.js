@@ -5,7 +5,6 @@ const server = express();
 const port = process.env.PORT || 3000
 
 require('dotenv').config()
-console.log(process.env.DB_Password)
 
 server.use('/',express.static('.')); //將整個server資料夾放到server上的/路徑
 server.use('/image', express.static(__dirname + '/image')); //只將某資料夾放到server上
