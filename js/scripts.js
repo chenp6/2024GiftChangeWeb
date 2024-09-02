@@ -3,7 +3,13 @@ function signJump(){
 }
 
 async function login(){
-    window.location.href="/home.html";
+    const url = 'http://localhost:3000' + '/getUserSelect';
+    const res = await fetch(url, {
+        method: 'GET',
+    })
+    const personData = await res.json()
+    console.log(personData);
+    // window.location.href="/home.html";
 }
 
 function go(){
