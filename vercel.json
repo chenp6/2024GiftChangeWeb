@@ -10,34 +10,17 @@
             "use": "@vercel/static"
         }
     ],
-    "routes": [
-        {
-            "src": "/home.html",
-            "dest": "home.html"
+    "routes": [{
+            "src": "/(.*).html",
+            "dest": "/$1.html"
         },
         {
-            "src": "/index.html",
-            "dest": "index.html"
+            "src": "/css/(.*)",
+            "dest": "/css/$1"
         },
         {
-            "src": "/signUp.html",
-            "dest": "signUp.html"
-        },
-        {
-            "src": "/css/home_style.css",
-            "dest": "css/home_style.css"
-        },
-        {
-            "src": "/css/index_style.css",
-            "dest": "css/index_style.css"
-        },
-        {
-            "src": "/css/signUp_style.css",
-            "dest": "css/signUp_style.css"
-        },
-        {
-            "src": "/image/background.png",
-            "dest": "image/background.png"
+            "src": "/image/(.*).png",
+            "dest": "/image/$1.png"
         },
         {
             "src": "/(.+)",
